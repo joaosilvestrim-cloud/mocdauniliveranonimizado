@@ -1,21 +1,21 @@
-# Plataforma de Gestão de Projetos de Engenharia · Demo
+# Engineering Project Management Platform · Demo
 
-Protótipo navegável de uma plataforma de gestão de projetos industriais, desenvolvido pela **Drive Data** como demonstração de produto.
+Navigable prototype of an industrial project management platform, built by **Drive Data** as a product demonstration.
 
-**Todos os dados, nomes, empresas, plantas e valores são fictícios** (cliente ilustrativo: "Vitalis Alimentos").
+**All data, names, companies, plants and values are fictitious** (illustrative client: "Vitalis Alimentos").
 
-## Módulos
-- **Módulo 1 · PSR**: governança documental por steps (ciclo EEM), classificação A–E, gates e auditoria
-- **Módulo 2 · DRA**: portfólio de investimentos por Ordem Interna, integração ERP (robô GRR3/KOB1), conciliação, ordens (KO03 manual), consolidação multi-site com upload de planilha e publicação em BI
-- **Módulo 3 · Ciclo de Vida**: gestão e monitoria de todos os projetos (com e sem CAPEX), marcos configuráveis, remanejo com justificativa, alertas e status calculado
+## Modules
+- **Module 1 · PSR**: documentation governance by steps (EEM cycle), A–E classification, gates and audit trail
+- **Module 2 · DRA**: investment portfolio by internal order, ERP integration (GRR3/KOB1 robot), reconciliation, orders (manual KO03 entry), multi-site consolidation with spreadsheet upload and BI publication
+- **Module 3 · Lifecycle**: management and monitoring of every project (with and without CAPEX), configurable milestones, rescheduling with mandatory justification, alerts and calculated status
 
-## Como executar
-Arquivo único, sem build e sem dependências:
+## How to run
+Single file, no build and no dependencies:
 
-- abra `index.html` direto no navegador; ou
-- `node serve.js` e acesse http://localhost:4173
+- open `index.html` directly in your browser; or
+- `node serve.js` and open http://localhost:4173
 
-Inclui tour guiado (botão no topo), manual de utilização e perfis de acesso (Administrador, Gerente, Auditor).
+Includes a guided tour (top button), a user manual and access profiles (Administrator, Manager, Auditor).
 
 ---
-© Drive Data · demonstração comercial · dados 100% fictícios
+© Drive Data · commercial demonstration · 100% fictitious data
